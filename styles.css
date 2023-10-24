@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.filter {
+  margin: 20px;
+}
+
+.criteria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.criteria label {
+  font-weight: bold;
+}
+
+.criteria input {
+  width: 100%;
+  padding: 5px;
+}
+
+.catalog {
+  margin: 20px;
+}
+
+.catalog h2 {
+  text-align: center;
+}
+
+.catalog ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.catalog li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.catalog li:hover {
+  background-color: #ddd;
+}
